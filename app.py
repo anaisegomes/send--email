@@ -13,7 +13,7 @@ msg['From'] = 'youremail'
 msg['To'] = 'anotheremail.com'
 
 # CORREÇÃO: usar set_content em vez de set_charset
-msg.set_content('Favor buscar a carga 35 que acabou de chegar na portaria')
+msg.set_content('your message here')
 
 # CORREÇÃO: adicionar vírgula entre host e porta
 try:
